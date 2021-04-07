@@ -1,0 +1,716 @@
+body
+{
+ background-image: linear-gradient( rgba(252, 244, 244, 0.425), rgba(255, 255, 255, 0.822) ), url(simpleThreads.png);
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+ background-size: 100% 100%;
+}
+#queryTableDiv
+   {
+
+ padding: 20px; 
+ transform: translate(0%,0%);
+padding: 10px;
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(120, 122, 122);
+ border-radius:20px;
+ background-color:  rgba(181, 192, 196, 0.404);
+   }
+#customerDetailsDiv
+{
+ transform: translate(0%,-10%);
+padding: 10px;
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(120, 122, 122);
+ border-radius:20px;
+ background-color:  rgba(181, 192, 196, 0.404);
+}
+   #customerTableDiv
+   {
+
+ padding: 30px; 
+ transform: translate(0%,0%);
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(120, 122, 122);
+ border-radius:20px;
+ background-color:  rgba(181, 192, 196, 0.308);
+
+   }
+   #queryTable 
+   {
+ border-collapse: separate;
+ border-spacing: 15px 50px;
+   }  
+#customerTable
+{
+ border-collapse: separate;
+ border-spacing: 15px 30px;
+ }  
+#subject
+{
+ 
+ transition:0.5s;	
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   border-bottom-color:rgba(36, 36, 37, 0.644);
+   background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+ transition:0.5s;	
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   border-bottom-color:rgba(36, 36, 37, 0.644);
+   background-color: rgba(228, 233, 235, 0);
+   
+}
+#contact
+{
+ transition:0.5s;	
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   border-bottom-color:rgba(36, 36, 37, 0.644);
+   background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+ transition:0.5s;	
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   border-bottom-color:rgba(36, 36, 37, 0.644);
+   background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+ transition:0.5s;	
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+   border-left: none;
+   border-right:none;
+   border-top:none;
+   border-bottom-color:rgba(36, 36, 37, 0.644);
+   background-color: rgba(228, 233, 235, 0);
+}
+
+#mainTable{
+ border-collapse: separate;
+ border-spacing: 15px 55px;
+}
+#customerDetails
+{
+ font-family: 'Tauri';
+ font-size: x-large;
+}
+#subjectText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#descriptionText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#priorityText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+
+#nameText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#contactText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#emailText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#branchText
+{
+ font-family: 'Tauri';
+ font-size:x-large;
+}
+#attachmentText
+{
+ font-family: 'Tauri';
+ font-size:x-large  ;
+}
+#attachments
+{
+  padding: 20px; 
+  transform: translate(0%,0%);
+ padding: 10px;
+  box-sizing:border-box;
+  box-shadow:0 15px 25px rgb(120, 122, 122);
+  border-radius:20px;
+  background-color:  rgba(181, 192, 196, 0.404);
+}
+
+@media only screen and (max-width: 240px)
+{
+ body
+ {
+   background-image: linear-gradient( rgba(224, 211, 211, 0.5), rgba(221, 204, 204, 0.397) ), url(simpleThreads.png);
+   background-repeat: repeat-x;
+ }
+ #queryTableDiv
+   {
+     padding: 6px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:5px;
+ background-color:  rgba(119, 130, 134, 0.459);
+   }
+
+   #customerTableDiv
+   {
+
+ padding: 6px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:5px;
+ background-color:  rgba(119, 130, 134, 0.459);
+
+   }
+#subject
+{
+ font-size: 7px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+ font-size: 7px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+    
+}
+#contact
+{
+ font-size: 7px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+ font-size: 7px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+ font-size: 7px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#customerDetails
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#subjectText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#descriptionText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#priorityText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+
+#nameText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#contactText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#emailText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#branchText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#attachmentText
+{
+ font-family: 'Tauri';
+ font-size: small;
+}
+#mainTable
+{
+ border-spacing: 5px;
+}
+}
+
+@media only screen and (max-width: 360px)
+{
+ body
+ {
+   background-image: linear-gradient( rgba(224, 211, 211, 0.5), rgba(221, 204, 204, 0.397) ), url(simpleThreads.png);
+   background-repeat: repeat-x;
+ }
+ #queryTableDiv
+   {
+padding: 10px;
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:10px;
+ background-color:  rgba(119, 130, 134, 0.459);
+   }
+
+   #customerTableDiv
+   {
+
+ padding: 10px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:10px;
+ background-color:  rgba(119, 130, 134, 0.459);
+
+   }
+#subject
+{
+  font-size: 10px;
+  width:100%;
+  height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+ font-size: 10px;
+ width:100%;
+ height: 50%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+    
+}
+#contact
+{
+ font-size: 10px;
+ width:100%;
+ height: 70%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+ font-size: 10px;
+ width:100%;
+ height: 70%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+ font-size: 10px;
+ width:100%;
+ height: 70%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#customerDetails
+{
+ font-family: 'Tauri';
+  font-size: medium;
+}
+#subjectText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#descriptionText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#priorityText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+
+#nameText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#contactText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#emailText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#branchText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#attachmentText
+{
+ font-family: 'Tauri';
+ font-size: medium;
+}
+#mainTable
+{
+ border-spacing: 10px;
+}
+}
+
+@media only screen and (max-width: 414px)
+{
+ body
+ {
+   background-image: linear-gradient( rgba(224, 211, 211, 0.5), rgba(221, 204, 204, 0.397) ), url(simpleThreads.png);
+   background-repeat: repeat-x;
+ }
+ #queryTableDiv
+   {
+     padding: 16px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:8px;
+ background-color:  rgba(119, 130, 134, 0.459);
+   }
+
+   #customerTableDiv
+   {
+
+     padding: 16px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:8px;
+ background-color:  rgba(119, 130, 134, 0.459);
+
+   }
+#subject
+{
+ font-size: 15px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+ font-size: 15px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+    
+}
+#contact
+{
+ font-size: 15px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+ font-size: 15px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+ font-size: 15px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#customerDetails
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#subjectText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#descriptionText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#priorityText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+
+#nameText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#contactText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#emailText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#branchText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#attachmentText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#mainTable
+{
+ border-spacing: 15px;
+}
+}
+
+@media only screen and (max-width: 1024px)
+{
+ body
+ {
+   background-image: linear-gradient( rgba(224, 211, 211, 0.5), rgba(221, 204, 204, 0.397) ), url(simpleThreads.png);
+   background-repeat: repeat-x;
+ }
+ #queryTableDiv
+   {
+     padding: 20px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:10px;
+ background-color:  rgba(119, 130, 134, 0.459);
+   }
+
+   #customerTableDiv
+   {
+     padding: 20px; 
+ box-sizing:border-box;
+ box-shadow:0 15px 25px rgb(75, 78, 78);
+ border-radius:10px;
+ background-color:  rgba(119, 130, 134, 0.459);
+   }
+#subject
+{
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+    
+}
+#contact
+{
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+ font-size: 20px;
+ width:100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+ font-size: 20px;
+ width:100%;
+ height: 100%;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#customerDetails
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#subjectText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#descriptionText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#priorityText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+
+#nameText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#contactText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#emailText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#branchText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#attachmentText
+{
+ font-family: 'Tauri';
+ font-size: large;
+}
+#mainTable
+{
+ border-spacing: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+

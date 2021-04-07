@@ -1,0 +1,313 @@
+ body
+ {
+  background-image: linear-gradient( rgba(252, 244, 244, 0.425), rgba(255, 255, 255, 0.822) ), url(bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+ }
+ #queryTableDiv
+    {
+
+  padding: 20px; 
+  transform: translate(0%,0%);
+padding: 10px;
+  box-sizing:border-box;
+	box-shadow:0 15px 25px rgb(120, 122, 122);
+  border-radius:20px;
+  background-color:  rgba(181, 192, 196, 0.404);
+    }
+ #CustomerDetailsDiv
+ {
+  transform: translate(0%,-10%);
+padding: 10px;
+  box-sizing:border-box;
+	box-shadow:0 15px 25px rgb(120, 122, 122);
+  border-radius:20px;
+  background-color:  rgba(181, 192, 196, 0.404);
+ }
+    #customerTableDiv
+    {
+ 
+  padding: 30px; 
+  transform: translate(0%,0%);
+  box-sizing:border-box;
+	box-shadow:0 15px 25px rgb(120, 122, 122);
+  border-radius:20px;
+  background-color:  rgba(181, 192, 196, 0.308);
+ 
+    }
+    #queryTable 
+    {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+    }  
+#customerTable
+ {
+  border-collapse: separate;
+  border-spacing: 15px 30px;
+  }  
+#subject
+{
+  
+  transition:0.5s;	
+  font-size: 20px;
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#name
+{
+  transition:0.5s;	
+  font-size: 20px;
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+    
+}
+#contact
+{
+  transition:0.5s;	
+  font-size: 20px;
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#email
+{
+  transition:0.5s;	
+  font-size: 20px;
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+#branch
+{
+  transition:0.5s;	
+  font-size: 20px;
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-bottom-color:rgba(36, 36, 37, 0.644);
+    background-color: rgba(228, 233, 235, 0);
+}
+
+#mainTable{
+  border-collapse: separate;
+  border-spacing: 15px 55px;
+}
+#customerDetails
+{
+  font-family: "Cambria";
+  font-size: x-large;
+}
+#subjectText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#descriptionText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#priorityText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+
+#nameText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#contactText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#emailText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#branchText
+{
+  font-family: "Cambria";
+  font-size:x-large;
+}
+#attachmentText
+{
+  font-family: "Cambria";
+  font-size:x-large  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 360px)
+{
+  body
+  {
+    background-image: linear-gradient( rgba(224, 211, 211, 0.5), rgba(221, 204, 204, 0.397) ), url(bg.jpg);
+
+  }
+  #queryTableDiv
+    {
+
+  padding: 10px; 
+  transform: translate(0%,0%);
+padding: 10px;
+  box-sizing:border-box;
+	box-shadow:0 15px 25px rgb(75, 78, 78);
+  border-radius:20px;
+  background-color:  rgba(119, 130, 134, 0.459);
+    }
+ 
+    #customerTableDiv
+    {
+ 
+  padding: 10px; 
+  transform: translate(0%,0%);
+  box-sizing:border-box;
+	box-shadow:0 15px 25px rgb(75, 78, 78);
+  border-radius:20px;
+  background-color:  rgba(119, 130, 134, 0.459);
+ 
+    }
+ #subject
+ {
+   font-size: 10px;
+   width:100%;
+   height: 50%;
+   border-radius: 5px;
+     border-left: none;
+     border-right:none;
+     border-top:none;
+     border-bottom-color:rgba(36, 36, 37, 0.644);
+     background-color: rgba(228, 233, 235, 0);
+ }
+ #name
+ {
+  font-size: 10px;
+  width:100%;
+  height: 50%;
+  border-radius: 5px;
+     border-left: none;
+     border-right:none;
+     border-top:none;
+     border-bottom-color:rgba(36, 36, 37, 0.644);
+     background-color: rgba(228, 233, 235, 0);
+     
+ }
+ #contact
+ {
+  font-size: 10px;
+  width:100%;
+  height: 50%;
+  border-radius: 5px;
+     border-left: none;
+     border-right:none;
+     border-top:none;
+     border-bottom-color:rgba(36, 36, 37, 0.644);
+     background-color: rgba(228, 233, 235, 0);
+ }
+ #email
+ {
+  font-size: 10px;
+  width:100%;
+  height: 50%;
+  border-radius: 5px;
+     border-left: none;
+     border-right:none;
+     border-top:none;
+     border-bottom-color:rgba(36, 36, 37, 0.644);
+     background-color: rgba(228, 233, 235, 0);
+ }
+ #branch
+ {
+  font-size: 10px;
+  width:100%;
+  height: 50%;
+  border-radius: 5px;
+     border-left: none;
+     border-right:none;
+     border-top:none;
+     border-bottom-color:rgba(36, 36, 37, 0.644);
+     background-color: rgba(228, 233, 235, 0);
+ }
+ #customerDetails
+ {
+   font-size: small;
+ }
+ #subjectText
+ {
+   font-size:small;
+ }
+ #descriptionText
+ {
+   font-size:small;
+ }
+ #priorityText
+ {
+   font-size:small;
+ }
+ 
+ #nameText
+ {
+   font-size:small;
+ }
+ #contactText
+ {
+   font-size:small;
+ }
+ #emailText
+ {
+   font-size:small;
+ }
+ #branchText
+ {
+   font-size:small;
+ }
+ #attachmentText
+ {
+   font-size:small;
+ }
+
+}
+
+
+
+

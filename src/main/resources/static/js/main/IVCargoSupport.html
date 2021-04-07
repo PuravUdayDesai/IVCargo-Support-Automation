@@ -1,0 +1,95 @@
+<DOCTYPE html>
+
+<html>
+    <head>
+            <title>IVCargo Support</title>
+            <link rel="stylesheet" href="Styles.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script src="ckeditor.js"></script>
+    </head>
+    <body>
+        <div id="mainForm">
+        <form>
+            <center>
+                <table  id="mainTable">
+                        <tr>
+                            <td>
+                                    <div id="queryTableDiv"  align="center">
+                                    <table id="queryTable">
+                                            <tr>
+                                                <td><div id="subjectText">Subject:</div></td>
+                                                <td><input type="text" placeholder="Subject Of Query" id="subject" required/></td>
+                                            </tr>
+                                            <tr>
+                                                    <td><div id="descriptionText">Description:</div></td>
+                                                    <td>
+                                                        <textarea name="content" id="editor" class="editor" placeholder="Description about Query" required></textarea>
+                                                    </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div id="priorityText">Priority:</div></td>
+                                                <td>
+                                                    <select name="priority" id="priorirty" class="custom-select mb-3"> 
+                                                        <option value="Low">Low</option>
+                                                        <option value="Normal">Normal</option>
+                                                        <option value="High">High</option>
+                                                        <option value="Immediate">Immediate</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                            </td>
+                            <td>
+                                <div id="customerDetailsDiv">
+                                    <p id="customerDetails" align="center"><b>Customer Details</b></p>
+                                </div>
+                                <div id="customerTableDiv">
+                                <table id="customerTable"> 
+                                    <tr>
+                                        <td><div id="nameText">Name:</div></td>
+                                        <td><input type="text" placeholder="Your Name" id="name" required/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div id="emailText">Email:</div></td>
+                                        <td><input type="email" placeholder="example@ivgroup.in" id="email" required /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div id="branchText">Branch:</div></td>
+                                        <td><input type="text" placeholder="Mumbai" id="branch" required /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div id="contacttext">Contact Number:</div></td>
+                                        <td><input type="tel" placeholder="9800000000" id="contact" maxlength="10" required /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div id="attachmentText">Attachment:</div></td>
+                                        <td>  
+                                                <input type="file"  id="customFile" name="filename" multiple>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <center><input type="submit" value="Submit" class="btn btn-success" id="submit"/></center>
+                            </td>
+                        </tr>
+                    </table>
+            </center>
+         </form>
+         </div>
+    </body>
+    <script src="notify.js"></script>
+    <script src="FirstLoad.js"></script>
+    <script src="Main.js"></script>
+    <script src="Validate.js"></script>
+    <script src="SubmitIt.js"></script>
+</html>

@@ -23,7 +23,7 @@ public class ConnectionAndCredentials {
 	{
 		Connection c;
 		Class.forName("org.postgresql.Driver");
-		c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/support","postgres", "purav");
+		c = DriverManager.getConnection("<DB CONNECT URL>","<USERNAME>", "<PASSWORD>");
 		c.setAutoCommit(false);
 		return c;
 	}
